@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+}
+h1 {
+  color: white;
+}
+label {
+  color: white;
+}
+#result {
+  color: white
+}
+#anxiety-level {
+  color: white
+}

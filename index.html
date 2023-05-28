@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Speech Anxiety Score Calculator | Introversion Scale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="calculator.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body class="p-4">
+  <h1 class="text-3xl font-bold text-center mb-6">Speech Anxiety Score Calculator</h1>
+  <p class="text-white mb-4"><strong>Directions:</strong> Below are 34 statements that people sometimes make about themselves. Please indicate whether or not you believe each statement applies to you by marking whether you:</p>
+  <p class="text-white font-bold mb-3">Strongly Disagree = 1;  Disagree = 2;  Neutral = 3;  Agree = 4; Strongly Agree = 5.</p>
+  <form class="mb-4">
+    <ol>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item1" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item1">While preparing for giving a speech, I feel tense and nervous.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item2" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item2">I feel tense when I see the words “speech” and “public speech” on a course outline when studying.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item3" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item3">My thoughts become confused and jumbled when I am giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item4" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item4">Right after giving a speech I feel that I have had a pleasant experience.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item5" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item5">I get anxious when I think about a speech coming up.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item6" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item6">I have no fear of giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item7" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item7">Although I am nervous just before starting a speech, I soon settle down after starting and feel calm and comfortable.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item8" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item8">I look forward to giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item9" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item9">When the instructor announces a speaking assignment in class, I can feel myself getting tense.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item10" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item10">My hands tremble when I am giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item11" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item11">I feel relaxed while giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item12" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item12">I enjoy preparing for a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item13" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item13">I am in constant fear of forgetting what I prepared to say.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item14" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item14">I get anxious if someone asks me something about my topic that I don’t know.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item15" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item15">I face the prospect of giving a speech with confidence.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item16" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item16">I feel that I am in complete possession of myself while giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item17" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item17">My mind is clear when giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item18" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item18">I do not dread giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item19" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item19">I perspire just before starting a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item20" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item20">My heart beats very fast just as I start a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item21" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item21">I experience considerable anxiety while sitting in the room just before my speech starts.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item22" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item22">Certain parts of my body feel very tense and rigid while giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item23" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item23">Realizing that only a little time remains in a speech makes me very tense and anxious.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item24" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item24">While giving a speech, I know I can control my feelings of tension and stress.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item25" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item25">I breathe faster just before starting a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item26" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item26">I feel comfortable and relaxed in the hour or so just before giving a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item27" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item27">I do poorer on speeches because I am anxious.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item28" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item28">I feel anxious when the teacher announces the date of a speaking assignment.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item29" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item29">When I make a mistake while giving a speech, I find it hard to concentrate on the parts that follow.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item30" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item30">During an important speech I experience a feeling of helplessness building up inside me.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item31" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item31">I have trouble falling asleep the night before a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item32" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item32">My heart beats very fast while I present a speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item33" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item33">I feel anxious while waiting to give my speech.</label>
+      </li>
+      <li class="flex items-center mb-2">
+        <input type="number" id="item34" class="w-10 border border-gray-300 rounded p-2 mr-2" min="1" max="5">
+        <label for="item34">While giving a speech, I get so nervous I forget facts I really know.</label>
+      </li>
+    </ol>
+  </form>
+  <div id="result" class="text-left font-bold mt-4"></div>
+  <div id="anxiety-level" class="text-left font-bold mt-2 mb-4"></div>
+  <button onclick="calculateAnxietyScore()" class="bg-transparent hover:bg-white border border-white text-white hover:text-black py-2 px-4 rounded" type="button">Calculate Score</button>
+  <div class="text-left text-white mt-6">
+    <legend class="font-bold">Scoring Legend:</legend>
+    <p>High: &gt; 131</p>
+    <p>Low: &lt; 98</p>
+    <p>Moderate: 98-131</p>
+    <p>Mean: 114.6; SD: 17.2</p>
+  </div>
+  <p class="text-xs text-white mt-4">This Calculator is based on <a href="http://www.jamescmccroskey.com/measures/prpsa.htm" title="Personal Report of Public Speaking Anxiety (PRPSA)">http://www.jamescmccroskey.com/measures/prpsa.htm</a></p>
+  <a href="https://www.flaticon.com/free-icons/" class="text-xs text-white mt-4" title="calculator icons">Calculator icon created by Freepik - Flaticon</a>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
